@@ -1,0 +1,64 @@
+.banner
+{
+    background-image: url(../../../assets/img/bannerimg.jpg);
+    height: 600px;
+    background-position: center top;
+    background-size: cover;
+}
+.content
+{
+    top:10%;
+    left:16%;
+    position: absolute;
+    font-size: 25px;
+}
+.content h1
+{
+    color: rgb(216, 235, 240);
+    font-size: 80px;
+    font-weight:bold;
+    
+} 
+.content a
+{
+    text-decoration: none;
+    font-family:Georgia;
+    color:rgb(15, 15, 255);
+    background-color: aliceblue;
+    padding: 10px 13px;
+    border-radius: 10px;
+}  
+.content a:hover
+{
+    background-color: var(--primary-color);
+    color: #fff;
+} 
+.stepBox
+{
+    background-color:grey;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-color: black;
+    text-align: center;
+}
+.stepBox h1
+{
+    font-size: 50px;
+    font-weight: bold ;
+    color: black;
+}
+.stepBox p
+{
+    color: #fff;
+    font-style: italic;
+    font-size: 35px;
+}
+.highlight
+{
+    color: var(--primary-color); 
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
